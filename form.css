@@ -1,0 +1,111 @@
+/* Here I have used the Simple selector: element selector*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8dcf1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Here I have used the Simple selector: ID selector*/
+#university-heading {
+    text-align: center;
+    color: #8c0391;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgb(231, 144, 248);
+    letter-spacing: 2px;
+}
+
+/* Here I have used the Simple selector: element selector*/
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #dcc0f0;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Here I have used the Simple selector: element selector*/
+h1 {
+    color: #bb5fc4;
+    text-align: center;
+}
+
+/* Here I have used the Simple selector: element selector*/
+h2 {
+    color: rgb(167, 96, 201);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Here I have used the Simple selector: element selector*/
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Here I have used the Attribute selector targeting specific attribute values*/
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Here I have used the Attribute selector targeting specific attribute values*/
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Here I have used the Simple selector: element selector*/
+textarea {
+    resize: vertical;
+}
+
+/* Here I have used the Attribute selector targeting specific attribute values*/
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #650592;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Here I have used the Pseudo-class : hover with the Attribute selector targeting specific attribute values */
+input[type="submit"]:hover {
+    background-color: #007B9A;
+}
+
+/* Here I have used the Attribute selector targeting specific attribute values*/
+input[type="radio"] {
+    margin: 0 5px 10px 0;
+}
+
+/* Here I have used the Adjacent sibling combinator selector */
+input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Here I have used the Simple selector: class selector*/
+.alert {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+/* Here I have used the Simple selector: class selector*/
+.error {
+    background-color: #f2dede;
+    color: #a94442;
+    border-color: #ebccd1;
+}
+
+

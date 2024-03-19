@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1 id="university-heading">Riara University</h1>
+
+    <form id="course-evaluation-form">
+        <h1>Course Evaluation Form</h1>
+        
+        <!-- Course Details -->
+        <label for="course-title">Course Title:</label><br>
+        <input type="text" id="course-title" name="course-title"><br>
+        <label for="course-code">Course Code:</label><br>
+        <input type="text" id="course-code" name="course-code"><br>
+        <label for="instructor-name">Instructor's Name:</label><br>
+        <input type="text" id="instructor-name" name="instructor-name"><br>
+
+         <!-- Course Content Evaluation -->
+        <h2>Course Content Evaluation</h2> 
+        <label>The course objectives were clear and understandable:</label><br>
+        <div id="objectives-clear">
+            <input type="radio" id="objectives-clear-1" name="objectives-clear" value="1">
+            <label for="objectives-clear-1">Strongly Disagree</label>
+            <input type="radio" id="objectives-clear-2" name="objectives-clear" value="2">
+            <label for="objectives-clear-2">Disagree</label>
+            <input type="radio" id="objectives-clear-3" name="objectives-clear" value="3">
+            <label for="objectives-clear-3">Neutral</label>
+            <input type="radio" id="objectives-clear-4" name="objectives-clear" value="4">
+            <label for="objectives-clear-4">Agree</label>
+            <input type="radio" id="objectives-clear-5" name="objectives-clear" value="5">
+            <label for="objectives-clear-5">Strongly Agree</label>
+        </div> <br>
+
+		
+        <h2>Teaching Method Evaluation</h2>
+        <label>The instructor communicated the material clearly and effectively:</label><br>
+        <div id="clear-communication">
+            <input type="radio" id="clear-communication-1" name="clear-communication" value="1">
+            <label for="clear-communication-1">Strongly Disagree</label>
+            <input type="radio" id="clear-communication-2" name="clear-communication" value="2">
+            <label for="clear-communication-2">Disagree</label>
+            <input type="radio" id="clear-communication-3" name="clear-communication" value="3">
+            <label for="clear-communication-3">Neutral</label>
+            <input type="radio" id="clear-communication-4" name="clear-communication" value="4">
+            <label for="clear-communication-4">Agree</label>
+            <input type="radio" id="clear-communication-5" name="clear-communication" value="5">
+            <label for="clear-communication-5">Strongly Agree</label>
+        </div> <br>
+        
+	    <h2>Course Load Evaluation</h2> 
+        <label>The workload was manageable and appropriate for the course level:</label><br>
+        <div id="manageable-workload">
+           <input type="radio" id="manageable-workload-1" name="manageable-workload" value="1">
+            <label for="manageable-workload-1">Strongly Disagree</label>
+            <input type="radio" id="objectives-clear-2" name="manageable-workload" value="2">
+            <label for="manageable-workload-2">Disagree</label>
+            <input type="radio" id="objectives-clear-3" name="manageable-workload" value="3">
+            <label for="manageable-workload-3">Neutral</label>
+            <input type="radio" id="objectives-clear-4" name="manageable-workload" value="4">
+            <label for="manageable-workload-4">Agree</label>
+            <input type="radio" id="objectives-clear-5" name="manageable-workload" value="5">
+            <label for="manageable-workload-5">Strongly Agree</label>
+        </div> <br>
+        
+		<!-- Open-Ended Questions -->
+        <h2>Open-Ended Questions</h2>
+        <label for="like-best">What did you like best about this course and/or the instructor's teaching methods?</label><br>
+        <textarea id="like-best" name="like-best"></textarea><br>
+        <label for="improvements">What suggestions do you have for improving this course and/or the instructor's teaching methods?</label><br>
+        <textarea id="improvements" name="improvements"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
+
